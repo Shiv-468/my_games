@@ -7,7 +7,7 @@ import Section5 from './components/Section5'
 import Section6 from './components/Section6'
 import Section7 from './components/Section7'
 import Footer from './components/Footer'
-// import Accd from './components/Accd'
+import Accd from './components/Accd'
 import Lastcard from './components/Lastcard'
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
       <Section5 />
       <Section6 />
       <Section7 />
-      {/* <Accd/> */}
+      <Accd/>
       <Lastcard/>
       <Footer />
     </>

@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../assets/img/logo.webp'
 import { Btngreen, Btnwhite } from '../common/Icons'
-// import { useTabs } from '@material-tailwind/react'
-// import hero from '../assets/img/hero-img.webp'
 const Header = () => {
  const [data , setdata]=useState(false);
  function view (){setdata(!data)

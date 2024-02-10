@@ -3,6 +3,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
 .bg-img{
   background-image: url(./assets/img/hero-img.webp);
 }
@@ -18,7 +19,6 @@
 .bg-size{
   background-size: 100% 100%;
 }
-
 .reason-box{
   border-radius: 17.34px;
   background: linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%);
