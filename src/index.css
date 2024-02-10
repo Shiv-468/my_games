@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.bg-img{
+  background-image: url(./assets/img/hero-img.webp);
+}
+.bg-2{
+  background-image: url(./assets/img/bg-white.webp);
+}
+.bg-3{
+  background-image: url(./assets/img/bg-3.webp);
+}
+.bg-container{
+  background-image: url(./assets/img/bg-container.webp);
+}
+.bg-size{
+  background-size: 100% 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.reason-box{
+  border-radius: 17.34px;
+  background: linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%);
+  backdrop-filter: blur(31.4px);
+  position: relative;
+  padding: 0.5px;
+}
+.reason-box::after{
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  padding: inherit;
+  background: linear-gradient(306.99deg, rgba(81, 200, 239, 0.5) -13.72%, rgba(122, 245, 122, 0.5) 102.02%);
+  inset: 0;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+.card-gradient{
+  background: linear-gradient(306.99deg, rgba(81, 200, 239, 0.06) -13.72%, rgba(122, 245, 122, 0.06) 102.02%),
+linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+}
+.bgs-2{
+ background-size: contain cover;
 }
