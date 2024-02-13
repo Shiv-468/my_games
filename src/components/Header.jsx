@@ -18,11 +18,11 @@ else{
                 <div className="flex py-[24px] justify-between items-center">
                     <img src={logo} alt="logo" />
                     <ul className={`${data ? "right-0":"right-[-100%]"} flex items-center w-f justify -between z-[50] gap-[20px] max-lg:fixed  max-lg:bg-[#00141B] max-lg:w-full max-lg:h-full max-xl:top-0  max-lg:flex-col max-lg:justify-center duration-500`}>
-                        <li><a href="#" className='text-[16px] leading-[25.6px] font-[500] text-white'>Hogar</a></li>
-                        <li><a href="#" className='text-[16px] leading-[25.6px] font-[500] text-white'>Misión</a></li>
-                        <li><a href="#" className='text-[16px] leading-[25.6px] font-[500] text-white'>Tragamonedas</a></li>
-                        <li><a href="#" className='text-[16px] leading-[25.6px] font-[500] text-white'>Por qué elegirnos</a></li>
-                        <li><a href="#" className='text-[16px] leading-[25.6px] font-[500] text-white'>Ofertas</a></li>
+                        <li><a href="#" className='text-[16px] font-Inter opacity-[80%] leading-[25.6px] font-[500] text-white'>Hogar</a></li>
+                        <li><a href="#" className='text-[16px] font-Inter opacity-[80%] leading-[25.6px] font-[500] text-white'>Misión</a></li>
+                        <li><a href="#" className='text-[16px] font-Inter opacity-[80%] leading-[25.6px] font-[500] text-white'>Tragamonedas</a></li>
+                        <li><a href="#" className='text-[16px] font-Inter opacity-[80%] leading-[25.6px] font-[500] text-white'>Por qué elegirnos</a></li>
+                        <li><a href="#" className='text-[16px] font-Inter opacity-[80%] leading-[25.6px] font-[500] text-white'>Ofertas</a></li>
                     </ul>
                 <div className='flex items-center gap-[30px]'>
                 <button className="py-[13px] font-[700] hidden  px-[46px] relative md:block sm:flex items-center justify-center bg-transparent rounded-[41px] border-[1px] font-Inter sm:text-[16px] text-[14px] text-white hover:bg-white hover:text-[#000] duration-300"> <span className='absolute -bottom-2 -left-2'>
